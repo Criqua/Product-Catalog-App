@@ -5,7 +5,7 @@
                 <i class="fas fa-box text-xl text-[#7c3aed] dark:text-[#a78bfa]"></i>
             </span>
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100">
-                {{ __('Editar producto') }}
+                {{ __('products.edit') }}
             </h2>
         </div>
     </x-slot>

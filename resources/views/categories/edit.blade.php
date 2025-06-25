@@ -1,9 +1,11 @@
 <x-app-layout>
     <x-slot name="header">
         <div class="flex items-center gap-2">
-            <i class="fas fa-folder-open text-2xl text-[#31c0d3] dark:text-[#31c0d3]"></i>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#7c3aed]/20 dark:bg-[#312e81]/30">
+                <i class="fas fa-folder-open text-xl text-[#7c3aed] dark:text-[#a78bfa]"></i>
+            </span>
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100">
-                {{ __('Editar Categoría') }}
+                {{ __('categories.edit') }}
             </h2>
         </div>
     </x-slot>

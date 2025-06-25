@@ -5,7 +5,7 @@
                 <i class="fas fa-folder-plus text-xl text-[#7c3aed] dark:text-[#a78bfa]"></i>
             </span>
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100">
-                {{ __('Crear categoría') }}
+                {{ __('categories.create') }}
             </h2>
         </div>
     </x-slot>
