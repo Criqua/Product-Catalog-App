@@ -20,7 +20,7 @@ A Laravel web application developed for the *Web Design & E-Commerce* course as 
     php artisan key:generate
     npm install
     npm run build
-    php artisan migrate
+    php artisan migrate --seed
     php artisan serve
 
 
